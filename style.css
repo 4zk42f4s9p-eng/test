@@ -81,6 +81,10 @@ iframe {
   color: #AAAAAA;
 }
 
+.logo:hover .c {
+  opacity: 1;
+}
+
 /* ===== スマホ用 ===== */
 @media screen and (max-width: 768px) {
 
@@ -96,6 +100,16 @@ iframe {
     display: block;
     margin: 0 auto;
     width: 80%;
+  }
+
+    .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo .r,
+  .logo .c {
+    font-size: 45px;
   }
 
 }
