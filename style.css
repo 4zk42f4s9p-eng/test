@@ -43,6 +43,44 @@ iframe {
   border: 0;
 }
 
+/* ロゴ全体 */
+.logo {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+/* R */
+.logo .r {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  left: 0;
+  top: 0;
+  color: #F5F5F5;
+}
+
+/* C */
+.logo .c {
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  right: 0;
+  bottom: 0;
+  color: #F5F5F5;
+  opacity: 0.7;
+}
+
+/* テキスト */
+.logo-text {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: #AAAAAA;
+}
+
 /* ===== スマホ用 ===== */
 @media screen and (max-width: 768px) {
 
