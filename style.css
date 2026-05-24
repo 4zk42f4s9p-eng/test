@@ -12,11 +12,11 @@ body {
 }
 
 /* ロゴ */
-.logo {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  margin: auto;
+.logo img {
+  width: 160px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .logo .r, .logo .c {
