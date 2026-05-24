@@ -123,10 +123,18 @@ footer {
   transform: translateX(-50%);
   width: 90%;
   max-width: 400px;
+  background: #B8AFA2;
+  color: white;
   text-align: center;
   padding: 15px;
   border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-btn:active {
+  transform: translateX(-50%) scale(0.98);
 }
 
 .address {
