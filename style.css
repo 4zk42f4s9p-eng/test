@@ -13,7 +13,7 @@ body {
 
 /* ロゴ */
 .logo img {
-  width: 360px !important;
+  width: 300px !important;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -137,6 +137,6 @@ footer {
 }
 @media (max-width: 768px) {
   .logo img {
-    width: 280px;
+    width: 240px;
   }
 }
