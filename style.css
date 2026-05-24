@@ -119,14 +119,13 @@ footer {
 .fixed-btn {
   position: fixed;
   bottom: 20px;
-  left: 5%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 90%;
-  background: #B8AFA2;
-  color: white;
+  max-width: 400px;
   text-align: center;
   padding: 15px;
   border-radius: 30px;
-  text-decoration: none;
 }
 
 .address {
