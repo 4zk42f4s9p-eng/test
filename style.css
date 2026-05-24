@@ -8,7 +8,7 @@ body {
 /* ヘッダー */
 .header {
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 20px 10px;
 }
 
 /* ロゴ */
@@ -43,7 +43,7 @@ body {
 /* ヒーロー */
 .hero {
   text-align: center;
-  padding: 80px 20px 60px;
+  padding: 40px 20px 40px;
 }
 
 .hero h1 {
