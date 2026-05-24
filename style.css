@@ -17,6 +17,9 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+  padding: 8px;
+  background: #F7F6F3;
+  border-radius: 8px;
 }
 
 .logo .r, .logo .c {
