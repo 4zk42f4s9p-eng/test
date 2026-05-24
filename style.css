@@ -125,3 +125,10 @@ footer {
   border-radius: 30px;
   text-decoration: none;
 }
+
+.address {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
