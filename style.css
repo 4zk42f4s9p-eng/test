@@ -1,133 +1,127 @@
-/* 共通 */
 body {
   margin: 0;
-  font-family: serif;
-  background: #000;
+  font-family: 'Noto Serif JP', serif;
+  background: #F7F6F3;
+  color: #333;
+}
+
+/* ヘッダー */
+.header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* ロゴ */
+.logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.logo .r, .logo .c {
+  position: absolute;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.logo .c {
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.logo-text {
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+/* ヒーロー */
+.hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.hero p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* セクション */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* 見出し */
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* テキスト */
+p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* リスト */
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+/* ボタン */
+.btn {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 14px;
+  border: 1px solid #B8AFA2;
+  color: #B8AFA2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: #B8AFA2;
   color: #fff;
 }
 
-h1, h2 {
-  font-weight: normal;
-}
-
-.header {
-  text-align: center;
-  padding: 20px;
-}
-
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h2 {
-  color: #c9a96e;
-  margin-bottom: 30px;
-}
-
-.btn {
-  border: 1px solid #c9a96e;
-  padding: 15px 30px;
-  color: #c9a96e;
-  text-decoration: none;
-}
-
-.about, .access {
-  padding: 50px 20px;
-  text-align: center;
-}
-
+/* マップ */
 iframe {
   width: 100%;
   height: 300px;
   border: 0;
 }
 
-/* ロゴ全体 */
-.logo {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  margin: 0 auto;
-}
-
-/* R */
-.logo .r {
-  position: absolute;
-  font-size: 60px;
-  font-family: 'Playfair Display', serif;
-  left: 0;
-  top: 0;
-  color: #F5F5F5;
-}
-
-/* C */
-.logo .c {
-  position: absolute;
-  font-size: 60px;
-  font-family: 'Playfair Display', serif;
-  right: 0;
-  bottom: 0;
-  color: #F5F5F5;
-  opacity: 0.7;
-}
-
-/* テキスト */
-.logo-text {
+/* フッター */
+footer {
   text-align: center;
-  margin-top: 10px;
-  letter-spacing: 3px;
+  padding: 40px 20px;
   font-size: 14px;
-  color: #AAAAAA;
+  color: #777;
 }
 
-.logo:hover .c {
-  opacity: 1;
-}
-
-/* ===== スマホ用 ===== */
-@media screen and (max-width: 768px) {
-
-  .hero {
-    padding: 60px 20px;
-  }
-
-  .hero h2 {
-    font-size: 20px;
-  }
-
-  .btn {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-  }
-
-    .logo {
-    width: 60px;
-    height: 60px;
-  }
-
-  .logo .r,
-  .logo .c {
-    font-size: 45px;
-  }
-
-}
-
-/* ===== PC用 ===== */
-@media screen and (min-width: 769px) {
-
-  .hero {
-    padding: 120px;
-  }
-
-  .hero h2 {
-    font-size: 32px;
-  }
-
-  .btn:hover {
-    background: #c9a96e;
-    color: #000;
-  }
-
+/* 固定ボタン */
+.fixed-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 5%;
+  width: 90%;
+  background: #B8AFA2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: none;
 }
